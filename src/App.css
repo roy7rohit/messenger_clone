@@ -1,0 +1,70 @@
+.app {
+  text-align: center;
+}
+
+.app__header {
+  position: fixed;
+  top: 0;
+  /* background-color: linear-gradient( #0b81ff pink); */
+  background-color: cyan;
+  /* color: #fff; */
+  width: 100%;
+  height:auto;
+  z-index: 999;
+  /* -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2); */
+  margin-bottom: -150px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  /* background-image: linear-gradient(to bottom, rgba(255,0,0,.), rgba(255,0,0,0.5)); */
+
+}
+
+.app__messageContainer {
+  margin-bottom: 100px !important;
+  margin-top: 140px !important;
+}
+
+.app__form {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  /* background-color: #e9e9eb; */
+  padding: 20px;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+  background-image: linear-gradient(to bottom, purple,orange,yellow,lightgreen,aquamarine,violet, pink);
+}
+
+.app__formControl {
+  display: flex !important;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: space-between;
+  padding-right: 20px !important;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__button {
+  flex: 0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.app__logo {
+  height: 46px;
+  margin-right: 10px;
+}
